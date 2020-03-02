@@ -58,14 +58,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Israel-Laguan/MathMagicians-Calculator/issues"
-  },
-  "homepage": "https://github.com/Israel-Laguan/HMathMagicians-Calculator#readme",
-  "jest": {
-    "coveragePathIgnorePatterns" : [
-      "<rootDir>/js/serviceWorker.js" 
-    ],
-    "watchPathIgnorePatterns" : [
-      "<rootDir>/js/serviceWorker.js"
-    ]
   }
 }
