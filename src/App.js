@@ -8,11 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit
+          Wait
           {' '}
-          <code>src/App.js</code>
+          <b>Math Magicians&apos; calculator</b>
           {' '}
-          and save to reload.
+          soon...
         </p>
         <a
           className="App-link"
@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Made with React!
         </a>
       </header>
     </div>

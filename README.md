@@ -36,6 +36,8 @@
   </p>
 </p>
 
+![App](docs/app.png)
+
 # Specifications
 
 ## The Project
@@ -79,7 +81,7 @@ Math-magicians is a fictional company based in France. They have requested your 
 
 # Live Demo
 
-[Link]()
+[Link](https://math-magicians-calculator.herokuapp.com/)
 
 # Authors
 
