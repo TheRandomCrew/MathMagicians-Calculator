@@ -6,7 +6,7 @@ import ButtonPanel from './ButtonPanel';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div data-testid="app">
         <Display />
         <ButtonPanel />
       </div>

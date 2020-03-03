@@ -14,10 +14,10 @@ const buttons = [
  * @return {Node} React Element
  */
 const ButtonPanel = () => (
-  <div>
+  <div data-testid="button-panel">
     {
-      buttons.map(group => (
-        <div key={Math.random()}>
+      buttons.map((group, id) => (
+        <div key={Math.random()} data-testid={`group-${id + 1}`}>
           {group.map(name => <Button name={name} key={Math.random()} />)}
         </div>
       ))

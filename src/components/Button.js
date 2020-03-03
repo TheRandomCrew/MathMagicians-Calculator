@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  * @return {Node} React Element
  */
 const Button = ({ name }) => (
-  <button type="button">
+  <button type="button" data-testid={name}>
     {name}
   </button>
 );

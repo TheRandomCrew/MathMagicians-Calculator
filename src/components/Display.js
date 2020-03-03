@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  * @return {Node} React Element
  */
 const Display = ({ result }) => (
-  <div>
+  <div data-testid="display">
     {result}
   </div>
 );
