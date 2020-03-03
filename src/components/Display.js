@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import css from '../style/Display.module.css';
 
 /**
  * Result of Calculation
@@ -7,7 +8,7 @@ import PropTypes from 'prop-types';
  * @return {Node} React Element
  */
 const Display = ({ result }) => (
-  <div data-testid="display">
+  <div data-testid="display" className={css.display}>
     {result}
   </div>
 );

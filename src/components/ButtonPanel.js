@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import css from '../style/ButtonPanel.module.css';
 
 const buttons = [
   ['AC', '+/-', '%', '÷'],
@@ -17,8 +18,17 @@ const ButtonPanel = () => (
   <div data-testid="button-panel">
     {
       buttons.map((group, id) => (
-        <div key={Math.random()} data-testid={`group-${id + 1}`}>
-          {group.map(name => <Button name={name} key={Math.random()} />)}
+        <div key={Math.random()} data-testid={`group-${id + 1}`} className={css.group}>
+          {
+            group.map((name, i) => (
+              <Button
+                name={name}
+                key={Math.random()}
+                color={(id !== 4 || i !== 2) && i !== 3}
+                wide={name === '0'}
+              />
+            ))
+          }
         </div>
       ))
     }
