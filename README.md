@@ -38,6 +38,12 @@
 
 ![App](docs/app.png)
 
+## Milestone 2
+
+Now, it is time to start with the real coding by defining the basic React components which will compose your whole calculator.
+
+[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_2.md)
+
 # Specifications
 
 ## The Project
