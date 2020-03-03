@@ -38,11 +38,11 @@
 
 ![App](docs/app.png)
 
-## Milestone 2
+## Milestone 3
 
-Now, it is time to start with the real coding by defining the basic React components which will compose your whole calculator.
+Let's turn this ugly duckling into a beautiful swan! In this milestone you will work with Flexboxes to add structure to the calculator, and you will add some styling to your components.
 
-[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_2.md)
+[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_3.md)
 
 # Specifications
 
@@ -60,6 +60,7 @@ Math-magicians is a fictional company based in France. They have requested your 
 # Features
 
 - Basic `create-react-app` structure
+- CSS Modules
 - Sets `stickler` on the repo
 - Sets `eslint` rules
 - Tests made with [`ESLint`](https://eslint.org/)
@@ -79,6 +80,7 @@ Math-magicians is a fictional company based in France. They have requested your 
 # Built With
 
 - `create-react-app`
+- `CSS Modules` and `flex` from **CSS3**
 - `ESLint`
 - `npm`
 - `vscode` with _ESLint_ extension
@@ -89,13 +91,39 @@ Math-magicians is a fictional company based in France. They have requested your 
 
 [Link](https://math-magicians-calculator.herokuapp.com/)
 
-# Authors
+# Getting Started
+
+Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
+
+## Prerequisites
+
+- `npm` 6.13 +
+- `node` 11.15 +
+- A Text Editor like VSCode
+- A browser like Firefox or Chrome
+
+## Quick Start
+
+```
+git clone https://github.com/Israel-Laguan/MathMagicians-Calculator.git
+cd mathmagicians-calculator
+npm i && npm start
+```
+
+Then open [http://localhost:3000/](http://localhost:3000/) to see the app.
+
+## Run tests
+
+Optionally you can run the linter and tests: `npm run linter && npm test`
+
+# Author
 
 👨 [Israel Laguan](https://github.com/Israel-Laguan)
 
 # 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Israel-Laguan/MathMagicians-Calculator/issues).
 
 # 🤗 Show your support
 
@@ -103,10 +131,9 @@ Give a ⭐️ if you like this project!
 
 # 🏅 Acknowledgements
 
-Give a ⭐️ if you like this project!
-
 - [Microverse](https://www.microverse.org/)
 - [The Odin Project](https://www.theodinproject.com/)
+- [Readme header author](https://github.com/collinsugwu/Microverse201-Enumerable-Methods)
 
 # 📝 License
 
