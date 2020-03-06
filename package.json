@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage -w =100%",
+    "test": "react-scripts test --coverage -w=100% --verbose",
     "eject": "react-scripts eject",
     "lint": "eslint src/ --cache -f table",
     "lint-fix": "eslint src/ --fix"
