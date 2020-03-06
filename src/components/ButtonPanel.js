@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from './Button';
 import css from '../style/ButtonPanel.module.css';
 
@@ -12,9 +13,10 @@ const buttons = [
 
 /**
  * The calculator panel with all the buttons
+ * @param {Function} onClick Event Handler for Click a Button
  * @return {Node} React Element
  */
-const ButtonPanel = () => (
+const ButtonPanel = ({ onClick }) => (
   <div data-testid="button-panel">
     {
       buttons.map((group, id) => (
@@ -26,6 +28,7 @@ const ButtonPanel = () => (
                 key={Math.random()}
                 color={(id !== 4 || i !== 2) && i !== 3}
                 wide={name === '0'}
+                onClick={onClick}
               />
             ))
           }
@@ -34,5 +37,13 @@ const ButtonPanel = () => (
     }
   </div>
 );
+
+ButtonPanel.propTypes = {
+  onClick: PropTypes.func,
+};
+
+ButtonPanel.defaultProps = {
+  onClick: e => e.target,
+};
 
 export default ButtonPanel;

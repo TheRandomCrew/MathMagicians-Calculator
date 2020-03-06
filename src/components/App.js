@@ -4,20 +4,31 @@ import ButtonPanel from './ButtonPanel';
 import css from '../style/App.module.css';
 import calculate from '../logic/calculate';
 
-const defaultState = { total: '0', operation: null, next: null };
-
 // eslint-disable-next-line react/prefer-stateless-function
 export default class App extends Component {
   constructor() {
     super();
-    this.calculation = calculate(defaultState);
+    this.state = {
+      total: '0',
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(buttonName) {
+    const newState = calculate(this.state, buttonName);
+    this.setState(newState);
   }
 
   render() {
+    const { handleClick, state: { next, total } } = this;
     return (
       <div data-testid="app" className={css.container}>
-        <Display />
-        <ButtonPanel />
+        <Display
+          result={next || total}
+        />
+        <ButtonPanel onClick={handleClick} />
       </div>
     );
   }
