@@ -38,11 +38,11 @@
 
 ![App](docs/app.png)
 
-## Milestone 3
+## Milestone 4
 
-Let's turn this ugly duckling into a beautiful swan! In this milestone you will work with Flexboxes to add structure to the calculator, and you will add some styling to your components.
+We will now focus on the heart of the calculator, its logic. In this milestone we will implement two JavaScript modules: calculate.js and operate.js which will be responsible for all calculations. Finally, we will include those modules in the App component so we can hook them up to other components in the next milestone.
 
-[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_3.md)
+[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_4.md)
 
 # Specifications
 

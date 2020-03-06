@@ -1,7 +1,7 @@
 {
   "name": "math-magicians-calculator",
   "description": "A fully-functional, but also beautiful and user-friendly calculator app",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage -w =100%",
+    "test": "react-scripts test --coverage -w=100%",
     "eject": "react-scripts eject",
     "lint": "eslint src/ --cache -f table",
     "lint-fix": "eslint src/ --fix"
