@@ -38,11 +38,11 @@
 
 ![App](docs/app.png)
 
-## Milestone 4
+## Milestone 5
 
-We will now focus on the heart of the calculator, its logic. In this milestone we will implement two JavaScript modules: calculate.js and operate.js which will be responsible for all calculations. Finally, we will include those modules in the App component so we can hook them up to other components in the next milestone.
+We are now very close to the final line. Your last task is to tie the calculations module with the components and to add the interaction to the buttons. If you remember how to pass event handlers as a props from Parent to Children components, you will complete this lesson faster than the speed of light!
 
-[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_4.md)
+[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_5.md)
 
 # Specifications
 
