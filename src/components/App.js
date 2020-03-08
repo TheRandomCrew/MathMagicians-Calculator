@@ -28,7 +28,7 @@ export default class App extends Component {
         <Display
           result={next || total}
         />
-        <ButtonPanel onClick={handleClick} />
+        <ButtonPanel handleClick={handleClick} />
       </div>
     );
   }

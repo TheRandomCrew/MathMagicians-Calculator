@@ -10,12 +10,12 @@ import css from '../style/Button.module.css';
  * @return {Node} React Element
  */
 const Button = ({
-  name, color, wide, onClick,
+  name, color, wide, handleClick,
 }) => (
   <button
     type="button"
     data-testid={name}
-    onClick={() => onClick(name)}
+    onClick={() => handleClick(name)}
     className={`${css.button} ${color ? css.color : ''} ${wide ? css.wide : ''}`}
   >
     {name}
@@ -26,13 +26,13 @@ Button.propTypes = {
   name: PropTypes.string.isRequired,
   color: PropTypes.bool,
   wide: PropTypes.bool,
-  onClick: PropTypes.func,
+  handleClick: PropTypes.func,
 };
 
 Button.defaultProps = {
   color: false,
   wide: false,
-  onClick: e => e.target,
+  handleClick: e => e.target,
 };
 
 export default Button;

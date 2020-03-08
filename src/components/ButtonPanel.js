@@ -13,10 +13,10 @@ const buttons = [
 
 /**
  * The calculator panel with all the buttons
- * @param {Function} onClick Event Handler for Click a Button
+ * @param {Function} handleClick Event Handler for Click a Button
  * @return {Node} React Element
  */
-const ButtonPanel = ({ onClick }) => (
+const ButtonPanel = ({ handleClick }) => (
   <div data-testid="button-panel">
     {
       buttons.map((group, id) => (
@@ -28,7 +28,7 @@ const ButtonPanel = ({ onClick }) => (
                 key={Math.random()}
                 color={(id !== 4 || i !== 2) && i !== 3}
                 wide={name === '0'}
-                onClick={onClick}
+                handleClick={handleClick}
               />
             ))
           }
@@ -39,11 +39,11 @@ const ButtonPanel = ({ onClick }) => (
 );
 
 ButtonPanel.propTypes = {
-  onClick: PropTypes.func,
+  handleClick: PropTypes.func,
 };
 
 ButtonPanel.defaultProps = {
-  onClick: e => e.target,
+  handleClick: () => {},
 };
 
 export default ButtonPanel;
