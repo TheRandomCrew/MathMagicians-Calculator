@@ -36,7 +36,7 @@
   </p>
 </p>
 
-![App](docs/app.png)
+![[App](https://math-magicians-calculator.herokuapp.com/)](docs/app.png)
 
 # Specifications
 
