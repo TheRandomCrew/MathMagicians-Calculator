@@ -1,0 +1,66 @@
+{
+  "name": "math-magicians-calculator",
+  "description": "A fully-functional, but also beautiful and user-friendly calculator app",
+  "version": "1.0.1",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "big-js": "^3.1.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage -w=100%",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/ --cache -f table",
+    "lint-fix": "eslint src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israel-Laguan/MathMagicians-Calculator.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "js",
+    "app",
+    "eslint",
+    "ES6",
+    "Test",
+    "Jest",
+    "calculator"
+  ],
+  "author": "Israel Laguan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Israel-Laguan/MathMagicians-Calculator/issues"
+  }
+}

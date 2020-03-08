@@ -1,0 +1,22 @@
+.cell {
+    background-color: #F5913E;
+    height: 100%;
+    flex: 25%;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.cell-hover:hover {
+    background-color: floralwhite;
+}
+
+.button{
+    composes: cell cell-hover;
+}
+
+.color{
+    background-color: gainsboro;
+}
+
+.wide {
+    flex: 50%;
+}
