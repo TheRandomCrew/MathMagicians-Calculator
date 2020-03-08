@@ -38,12 +38,6 @@
 
 ![App](docs/app.png)
 
-## Milestone 5
-
-We are now very close to the final line. Your last task is to tie the calculations module with the components and to add the interaction to the buttons. If you remember how to pass event handlers as a props from Parent to Children components, you will complete this lesson faster than the speed of light!
-
-[Requirements](https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_5.md)
-
 # Specifications
 
 ## The Project
