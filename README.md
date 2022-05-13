@@ -17,7 +17,7 @@
 <br />
 <p align="center">
   <a href="https://www.microverse.org/">
-    <img src="https://user-images.githubusercontent.com/4030477/167905004-9c3307d4-be24-4774-ad58-545da2da65b7.svg" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/4030477/167905004-9c3307d4-be24-4774-ad58-545da2da65b7.svg" alt="Logo" width="250" height="250">
   </a>
 
   <h1 align="center">
