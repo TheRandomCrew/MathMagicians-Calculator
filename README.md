@@ -178,13 +178,13 @@ Feel free to fork this project and improve it
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/MathMagicians-Calculator?style=plastic
+[contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/MathMagicians-Calculator?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/MathMagicians-Calculator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/MathMagicians-Calculator?style=plastic
+[forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/MathMagicians-Calculator?style=for-the-badge
 [forks-url]: https://github.com/Israel-Laguan/MathMagicians-Calculator/network/members
-[stars-shield]: https://img.shields.io/github/stars/Israel-Laguan/MathMagicians-Calculator?style=plastic
+[stars-shield]: https://img.shields.io/github/stars/Israel-Laguan/MathMagicians-Calculator?style=for-the-badge
 [stars-url]: https://github.com/Israel-Laguan/MathMagicians-Calculator/stargazers
-[issues-open-shield]: https://img.shields.io/github/issues/Israel-Laguan/MathMagicians-Calculator?style=plastic
+[issues-open-shield]: https://img.shields.io/github/issues/Israel-Laguan/MathMagicians-Calculator?style=for-the-badge
 [issues-closed-url]: https://github.com/Israel-Laguan/MathMagicians-Calculator/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/Israel-Laguan/MathMagicians-Calculator?style=plastic
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/Israel-Laguan/MathMagicians-Calculator?style=for-the-badge
 [issues-open-url]: https://github.com/Israel-Laguan/MathMagicians-Calculator/issues
