@@ -104,7 +104,7 @@ cd mathmagicians-calculator
 npm i && npm start
 ```
 
-Then open [http://localhost:3000/](https://math-magicians-calculator.herokuapp.com/) to see the app.
+Then open `http://localhost:3000` to see the app.
 
 ## Run tests
 
