@@ -17,7 +17,7 @@
 <br />
 <p align="center">
   <a href="https://www.microverse.org/">
-    <img src="docs/microverse.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/4030477/167905004-9c3307d4-be24-4774-ad58-545da2da65b7.svg" alt="Logo" width="250" height="250">
   </a>
 
   <h1 align="center">
@@ -111,6 +111,7 @@ Then open `http://localhost:3000` to see the app.
 Optionally you can run the linter and tests: `npm run linter && npm test`
 
 # Author
+
 <table style="width:100%">
   <tr>
     <td>
